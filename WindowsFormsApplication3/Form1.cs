@@ -31,7 +31,7 @@ namespace WindowsFormsApplication3
                     ListViewItem listViewItem = new ListViewItem(feedItem.title);
                     listViewItem.Name = feedItem.title;
                     listView1.Items.Add(listViewItem);
-                }
+                }                
             }
         }
 

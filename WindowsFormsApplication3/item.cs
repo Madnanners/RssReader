@@ -9,15 +9,14 @@ namespace WindowsFormsApplication3
 {
     class item
     {
-        public String title; // заголовок записи
+        public String title; 
         public
-            String link; // ссылка на полный текст
+            String link; 
         public 
-            String description;// описание записи
+            String description;
         public
         item(XmlNode ItemTag)
-        {
-            // просматриваем все теги записи
+        {            
               foreach (XmlNode xmlTag in ItemTag.ChildNodes)
                 {
                 switch (xmlTag.Name)
