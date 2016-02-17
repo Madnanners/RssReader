@@ -82,8 +82,9 @@ namespace WindowsFormsApplication3
                         listView1.Items.Add(listViewItem);
                     }
                 }
-
-
+                timer1.Start();
+                countactive = true;
+                timeLeft = numericUpDown1.Value;
             }
         }
 
@@ -105,8 +106,7 @@ namespace WindowsFormsApplication3
             {
                 timer1.Stop();
                 countactive = false;                
-                label1.Text = "Секунд до обновления";
-
+                label1.Text = "Секунд до обновления";                
             }
             else
             {
