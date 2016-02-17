@@ -1,4 +1,0 @@
-http://lenta.ru/rss/top7
-http://ria.ru/export/rss2/politics/index.xml
-https://news.yandex.ru/hardware.rss
-http://news.rambler.ru/rss/starlife/
