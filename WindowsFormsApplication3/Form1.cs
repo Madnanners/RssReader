@@ -30,29 +30,13 @@ namespace WindowsFormsApplication3
                     listView1.Items.Add(listViewItem);
                 }
             }
-        }
-
-        private void Form1_Load(object sender, EventArgs e)
-        {
-
-        }
-
+        }   
         private void listView1_SelectedIndexChanged(object sender, EventArgs e)
         {
             if (listView1.SelectedItems.Count > 0 && CurrentFeed != null && CurrentFeed.Items.Count > 0)
             {
                 webBrowser1.DocumentText = CurrentFeed.Items.GetItem(listView1.SelectedItems[0].Text).description;
             }
-        }
-
-        private void textBox1_TextChanged(object sender, EventArgs e)
-        {
-            
-        }
-
-        private void webBrowser1_DocumentCompleted(object sender, WebBrowserDocumentCompletedEventArgs e)
-        {
-
-        }
+        }           
     }
 }
