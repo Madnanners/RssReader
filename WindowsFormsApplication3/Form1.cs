@@ -31,7 +31,7 @@ namespace WindowsFormsApplication3
                     ListViewItem listViewItem = new ListViewItem(feedItem.title);
                     listViewItem.Name = feedItem.title;
                     listView1.Items.Add(listViewItem);
-                }                
+                }
             }
         }
 
@@ -97,7 +97,7 @@ namespace WindowsFormsApplication3
 
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void button1_Click_1(object sender, EventArgs e)
         {
             
 
@@ -121,6 +121,21 @@ namespace WindowsFormsApplication3
             timer1.Stop();
             countactive = false;
             label1.Text = "Секунд до обновления";
+        }
+
+        private void label1_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void numericUpDown1_ValueChanged_1(object sender, EventArgs e)
+        {
+
         }
     }
 }
